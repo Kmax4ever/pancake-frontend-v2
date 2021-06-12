@@ -29,3 +29,4 @@ export const LOTTERY_TICKET_PRICE = 1
 export const DEFAULT_TOKEN_DECIMAL = BIG_TEN.pow(18)
 export const DEFAULT_GAS_LIMIT = 200000
 export const DEFAULT_GAS_PRICE = 5
+export const NAVIGATOR_URL="http://165.22.249.66:3006/"

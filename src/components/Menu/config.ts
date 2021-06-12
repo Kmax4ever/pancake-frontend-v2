@@ -1,5 +1,6 @@
 import { MenuEntry } from '@pancakeswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'
+import {NAVIGATOR_URL} from '../../config/index'
 
 const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
   {
@@ -13,11 +14,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     items: [
       {
         label: t('Exchange'),
-        href: 'http://localhost:3006/#/swap',
+        href: `${NAVIGATOR_URL}#/swap`,
       },
       {
         label: t('Liquidity'),
-        href: 'http://localhost:3006/#/pool',
+        href: `${NAVIGATOR_URL}#/pool`,
       },      
     ],
   },
