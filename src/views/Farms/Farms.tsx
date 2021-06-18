@@ -24,6 +24,7 @@ import FarmTabButtons from './components/FarmTabButtons'
 import { RowProps } from './components/FarmTable/Row'
 import ToggleView from './components/ToggleView/ToggleView'
 import { DesktopColumnSchema, ViewMode } from './components/types'
+import "../../style/css/farms.css"
 
 const ControlContainer = styled.div`
   display: flex;
@@ -340,8 +341,8 @@ const Farms: React.FC = () => {
 
   return (
     <>
-      <PageHeader>
-        <Heading as="h1" scale="xxl" color="secondary" mb="24px">
+      <PageHeader background=" rgb(22, 24, 29)">
+        <Heading as="h1" scale="xxl" color="secondary" mb="24px" >
           {t('Farms')}
         </Heading>
         <Heading scale="lg" color="text">

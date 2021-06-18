@@ -1,0 +1,437 @@
+
+    .header-main {
+        padding: 30px 0;
+        transition: all .4s;
+        width: 100%;
+        z-index: 49;
+        background-color: #2A2E37 !important;
+        height: 100px;
+        font-family: Comfortaa !important;
+    
+    }  
+    
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+
+
+ /* pc */
+  @media (min-width: 1000px) {    
+
+   
+      .menu 
+    {
+        width:  100%;
+        list-style-type: none;
+      
+    }
+    .header-nav
+    {
+        display: none;
+    }
+    .header-nav-toggle
+    {
+        display: none;
+    }
+
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: #C3C9D4 ;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+       
+      }
+
+      .menu-item 
+      {
+        width: 10%;
+      }
+
+      .menu-item-first 
+      {
+        width: 10%;
+      }
+      .menu-item-last{
+        width: 10%;
+      }
+      
+   .menu-item a {
+        font-size: 14px;
+        font-family: Comfortaa !important;
+    }
+
+    .header-navbar{
+
+        width: 100%;
+        display: flex;    
+        justify-content: center;
+    }
+    .header-menu
+    {
+        width: 91.5%;
+        display: flex;
+    }
+
+    .ul-btn-truswallet{
+        list-style-type: none;
+        text-transform: uppercase;
+        width: 20%;
+        padding-top: 10px;
+        padding-left:0px;
+    }
+   .ul li{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.016px;
+    color: #C3C9D4 !important;
+   }
+
+    .btn-truswallet{
+        font-size: 12px;
+        line-height: 24px;
+        padding: 5px 16px;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+    }
+
+    .btn-truswallet li {
+        width: 100%;
+    }
+
+    .logo-link img {
+        margin-top: -15px;
+    }
+    .btn-truswallet:hover{
+        cursor: pointer;
+    }
+      
+}
+.btn-truswallet{
+    font-weight: 500;
+}
+@media (max-width: 1360px) {   
+    /* .btn-truswallet{
+        font-size: 11px;
+     
+    } */
+}
+
+@media (max-width: 1220px) {   
+    .btn-truswallet{
+        font-size: 11px;
+     
+    }
+}
+
+@media (max-width: 1130px) {   
+    .btn-truswallet{
+        font-size: 10px;
+        /* line-height: 24px;
+        padding: 8px 16px;
+        font-family: "Roboto", sans-serif !important;
+        background-color: #16369c;
+        border-color: #16369c;
+        width: 100%;
+        border-radius: 4px; */
+    }
+}
+
+
+@media (max-width: 1000px) {   
+    .header-main
+    {
+      
+        padding: 12px 0;
+        position: fixed;
+        /* margin-top: -100px; */
+        background-color: #16181D !important;
+        
+    }
+    .logo-link{
+        display: block;
+        height: 20px;
+    }    
+    .logo-link img{
+        display: none;
+        
+    }
+  
+  .header-menu
+  {
+      width: 290px;
+      height: 102vh;
+      background-color: white;
+      animation-delay: 0.75s;
+      padding-left: 10px;
+  }
+    .menu 
+    {
+        width:  100%;
+        list-style-type: none;
+    }
+    .menu-item{
+      margin-bottom: 0px !important;
+    }
+    .menu-item-a {
+        border-bottom: 1px solid rgba(219, 228, 247, 0.75);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 15.6px!important;
+        color: #415076!important;
+        padding: 12px 0!important;
+        display: block!important;
+        position: relative!important;
+        margin-bottom: 0px !important;
+    }
+    .menu-item-a:hover{
+        color:#6610f2 !important;
+    }
+
+    .header-nav{
+        width: 100%;
+        display: flex;
+    }
+    .left-toggle
+    {
+        width: 90%;
+    }
+    .header-nav-toggle{
+        display: block !important;
+        height: 34px;
+    }
+
+
+
+
+    .toggle-line {
+        position: relative;
+        width: 32px;
+        height: 32px;
+        display: block;
+        color: #fff;
+    }
+    
+     
+    .is-transparent:not(.has-fixed):not(.is-light) .toggle-line {
+        color: #fff;
+    }
+    
+    .is-dark.has-fixed .toggle-line {
+        color: #fff;
+    }
+    
+    .toggle-line::after,
+    .toggle-line::before,
+    .toggle-line>span {
+        content: "";
+        position: absolute;
+        background: currentColor;
+        transition: all 0.2s;
+        width: 24px;
+        height: 2px;
+        left: 4px;
+        border-radius: 3px;
+    }
+    
+    .toggle-line::before {
+        top: 8px;
+    }
+    
+    .toggle-line::after {
+        bottom: 8px;
+    }
+    
+    .toggle-line>span {
+        top: 50%;
+        margin-top: -1px;
+        width: 20px;
+    }
+
+
+    
+
+    .toggle-line-x {
+        position: relative;
+        width: 32px;
+        height: 32px;
+        display: none;
+        color: #fff;
+    }
+    
+    
+      
+    .toggle-line-x::after,
+    .toggle-line-x::before,
+    .toggle-line-x>span {
+        content: "";
+        position: absolute;
+        background: currentColor;
+        transition: all 0.2s;
+        width: 24px;
+        height: 2px;
+        left: 4px;
+        border-radius: 3px;
+    }
+    
+     .toggle-line-x::before {
+        transform: rotate(
+    45deg
+    );
+        top: 15px !important;
+    }
+    .toggle-line-x::after {
+        transform: rotate(
+    -45deg
+    );
+        bottom: 15px !important;
+    } */
+
+  
+    
+    .toggle-line-x::before {
+        top: 8px;
+    }
+    
+    .toggle-line-x::after {
+        bottom: 8px;
+    }
+    
+    .toggle-line-x>span {
+        top: 50%;
+        margin-top: -1px;
+        width: 20px;
+    }
+
+       
+.navbar-active .toggle-line-x {
+    color: #fff;
+}
+.toggle-line-x>span {
+    top: 50%;
+    margin-top: -1px;
+    width: 20px;
+}
+
+
+    .navbar-toggle {
+        width: 44px;
+        height: 44px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 50%;
+        padding: 5px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s;
+    }
+    
+
+    
+.navbar-active .toggle-line {
+    color: #fff;
+}
+
+.navbar-active .toggle-line::before,
+.navbar-active .toggle-line::after {
+    width: 28px;
+    left: 2px;
+}
+
+.navbar-active .toggle-line::before {
+    transform: rotate(45deg);
+    top: 15px;
+}
+
+.navbar-active .toggle-line::after {
+    transform: rotate(-45deg);
+    bottom: 15px;
+}
+
+.navbar-active .toggle-line>span {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.header-navbar-overlay {
+    opacity: 1;
+    visibility: visible;
+    left: 100%;
+    z-index: 50;
+    transition: opacity .3s;
+    transition-delay: .2s;
+    height: 102vh;
+    float: right;
+    width: 70%;
+}
+.header-navbar
+{
+    left: 0 !important;
+    z-index: 10;
+    background: rgba(11, 12, 16, 0.7);
+    display: none;
+    margin-top: -58px;
+    height: 102vh;
+}
+
+
+
+    .ul-btn-truswallet
+    {
+        list-style-type: none;
+    }
+    .btn-truswallet{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px 0px;
+        width: 100%;
+        border-radius: 4px;
+        margin-left: -5px;
+    }
+
+}
+
+@media (max-width: 420px ) {   
+    .header-navbar-overlay {
+       
+        width: 30%;
+    }
+    .header-menu{
+        width: 300px;
+    }
+}
+
+/* @media screen and  (max-width: 600px) {   
+    .header-navbar-overlay {       
+        width: 50%;
+    }
+}
+
+@media screen and  (max-width: 800px) {   
+    .header-navbar-overlay {       
+       
+        width: 65%;
+    }
+} */

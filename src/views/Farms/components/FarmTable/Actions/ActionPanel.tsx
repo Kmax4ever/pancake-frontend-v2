@@ -149,20 +149,20 @@ const ActionPanel: React.FunctionComponent<ActionPanelProps> = ({
   })
   const lpAddress = farm.lpAddresses[process.env.REACT_APP_CHAIN_ID]
   const bsc = getBscScanAddressUrl(lpAddress)
-  const info = `https://pancakeswap.info/pair/${lpAddress}`
+  // const info = `https://pancakeswap.info/pair/${lpAddress}`
 
   return (
     <Container expanded={expanded}>
       <InfoContainer>
         {isActive && (
           <StakeContainer>
-            <StyledLinkExternal href={`https://exchange.pancakeswap.finance/#/add/${liquidityUrlPathParts}`}>
+            <StyledLinkExternal href={`http://165.22.249.66:3006/#/add/${liquidityUrlPathParts}`}>
               {t('Get %symbol%', { symbol: lpLabel })}
             </StyledLinkExternal>
           </StakeContainer>
         )}
         <StyledLinkExternal href={bsc}>{t('View Contract')}</StyledLinkExternal>
-        <StyledLinkExternal href={info}>{t('See Pair Info')}</StyledLinkExternal>
+        {/* <StyledLinkExternal href={info}>{t('See Pair Info')}</StyledLinkExternal> */}
         <TagsContainer>
           {farm.isCommunity ? <CommunityTag /> : <CoreTag />}
           {dual ? <DualTag /> : null}

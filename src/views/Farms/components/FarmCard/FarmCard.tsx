@@ -139,7 +139,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, account }
         onClick={() => setShowExpandableSection(!showExpandableSection)}
         expanded={showExpandableSection}
       />
-      <ExpandingWrapper expanded={showExpandableSection}>
+      {/* <ExpandingWrapper expanded={showExpandableSection}>
         <DetailsSection
           removed={removed}
           bscScanAddress={getBscScanAddressUrl(farm.lpAddresses[process.env.REACT_APP_CHAIN_ID])}
@@ -148,7 +148,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, account }
           lpLabel={lpLabel}
           addLiquidityUrl={addLiquidityUrl}
         />
-      </ExpandingWrapper>
+      </ExpandingWrapper> */}
     </FCard>
   )
 }

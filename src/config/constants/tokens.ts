@@ -438,8 +438,8 @@ const tokens = {
   wbnb: {
     symbol: 'wBNB',
     address: {
-      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
-      97: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
+      56: '0x2e2E26918e580290Fe7ffc53dB589f607d90c162',
+      97: '0x2e2E26918e580290Fe7ffc53dB589f607d90c162',
     },
     decimals: 18,
     projectLink: 'https://pancakeswap.finance/',
@@ -1523,6 +1523,15 @@ const tokens = {
     },
     decimals: 18,
     projectLink: 'https://www.boringdao.com/',
+  },
+  test: {
+    symbol: 'TEST',
+    address: {
+      56: '',
+      97: '0x3Ee1CC33cfd902F89Aa7853685AA7754cA60C70a',
+    },
+    decimals: 18,
+    projectLink: 'https://www.test.com/',
   },
 }
 

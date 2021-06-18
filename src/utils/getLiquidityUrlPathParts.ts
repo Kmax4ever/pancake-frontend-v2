@@ -3,7 +3,9 @@
 import { getWbnbAddress } from './addressHelpers'
 
 const getLiquidityUrlPathParts = ({ quoteTokenAddress, tokenAddress }) => {
-  const chainId = process.env.REACT_APP_CHAIN_ID
+  const chainId = process.env.REACT_APP_CHAIN_ID;
+  console.log(chainId);
+  
   const wBNBAddressString = getWbnbAddress()
   const quoteTokenAddressString: string = quoteTokenAddress ? quoteTokenAddress[chainId] : null
   const tokenAddressString: string = tokenAddress ? tokenAddress[chainId] : null
